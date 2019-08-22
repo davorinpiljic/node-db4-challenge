@@ -1,0 +1,35 @@
+{
+  "name": "db4-challenge",
+  "version": "1.0.0",
+  "description": "Node-db4-challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davorinpiljic/node-db4-challenge.git"
+  },
+  "keywords": [
+    "Node",
+    "db4",
+    "database4"
+  ],
+  "author": "Davorin Piljic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davorinpiljic/node-db4-challenge/issues"
+  },
+  "homepage": "https://github.com/davorinpiljic/node-db4-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.19.2",
+    "knex-cleaner": "^1.3.0",
+    "nodemon": "^1.19.1",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
